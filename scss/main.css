@@ -13,20 +13,20 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(37, 37, 37, 0.9)), to(rgba(37, 37, 37, 0.3))), url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80") center top fixed;
-  background: linear-gradient(to right, rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.3)), url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80") center top fixed;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(37, 37, 37, 0.7)), to(rgba(37, 37, 37, 0.3))), url("../dist/imgs/sunflowerField.jpg") center top fixed;
+  background: linear-gradient(to right, rgba(37, 37, 37, 0.7), rgba(37, 37, 37, 0.3)), url("../dist/imgs/sunflowerField.jpg") center top fixed;
   background-size: cover;
 }
 
 .home_name {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
 }
 
 .home_name--last {
-  color: #ff652f;
+  color: #c58017;
   font-weight: 700;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .nav .menu-nav_item.active > a {
-  color: #ff652f;
+  color: #c58017;
 }
 
 .nav .menu-nav_link {
@@ -162,7 +162,7 @@
 }
 
 .nav .menu-nav_link:hover {
-  color: #ff652f;
+  color: #c58017;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -236,7 +236,7 @@
 .about .jobs_job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #c58017;
 }
 
 .about .jobs_job h2, .about .jobs_job h3 {
@@ -260,6 +260,14 @@
 .about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.about .profile-pic {
+  height: 200px;
+  border-radius: 10%;
+  position: absolute;
+  left: 45%;
+  top: 5%;
 }
 
 .projects {
@@ -304,7 +312,7 @@
 
 .projects_item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #c58017;
   overflow: hidden;
   cursor: pointer;
 }
@@ -320,7 +328,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: white;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -498,7 +506,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #c58017;
 }
 
 header {
@@ -526,7 +534,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #c58017;
 }
 
 footer {

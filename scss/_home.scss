@@ -7,15 +7,15 @@
     background: 
         linear-gradient(
             to right,
-            rgba(37,37,37, 0.9),
+            rgba(37,37,37, 0.7),
             rgba(37,37,37, 0.3)
         ),
-        url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80") center top fixed;
+        url("../dist/imgs/sunflowerField.jpg") center top fixed;
     background-size: cover;
     
 
     &_name{
-        font-size: 5rem;
+        font-size: 4rem;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
