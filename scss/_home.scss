@@ -1,6 +1,6 @@
 .home {
     height: 100%;
-    padding-top: 40vh;
+    padding-top: 30vh;
     overflow: hidden;
     align-items: center;
     text-align: center;
@@ -24,5 +24,20 @@
             color: $secondary-color;
             font-weight: 700;
         }
+    }
+    
+}
+
+.my-work{
+    border: 1px solid white;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 800;
+    &:hover{
+        color: orange;
+        border: 3px solid white;
+        transition: 0.3s ease;
     }
 }

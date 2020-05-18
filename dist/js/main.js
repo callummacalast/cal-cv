@@ -29,3 +29,8 @@ function toggleMenu() {
     }
 }
 
+// displaying the current date in JS - need to figure out a way of displying in each page
+let currentDate = new Date().getFullYear();
+let date = document.getElementById('home-date').innerHTML =  '&copy ' + 'Callum Macalast ' + currentDate;    
+// let date = document.getElementsByClassName('footer-date').innerHTML =  '&copy ' + 'Callum Macalast ' + currentDate;    
+
