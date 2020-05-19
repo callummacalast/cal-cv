@@ -1,6 +1,6 @@
 .contact {
     height: 100%;
-    padding-top: 40vh;
+    padding-top: 300px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -22,8 +22,8 @@
 
     &_list {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        // grid-gap: 2rem;
         font-size: 1.5rem;
     }
 
@@ -32,12 +32,14 @@
         margin-top: 2rem;
     }
     .fas{
-        padding-right: 2px;
+        padding-right: 3px;
         
     }
 }
-
-.contact-list{
-    position: relative;
-    right: 0;
+.email-me{
+    color: #c58017;
 }
+// .contact-list{
+//     position: relative;
+//     right: 0;
+// }
