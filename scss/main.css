@@ -240,19 +240,15 @@
 }
 
 .about .jobs {
-  width: 60vw;
+  width: 70vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-gap: 2rem;
 }
 
 .about .jobs_job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #c58017;
 }
 
 .about .jobs_job h2, .about .jobs_job h3 {
